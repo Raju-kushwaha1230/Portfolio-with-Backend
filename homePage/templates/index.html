@@ -1,0 +1,268 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portofolio</a>
+        <nav class="nav">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#skills" style="--i:3">Skill</a>
+            <a href="#portfolio" style="--i:4">Portfolio</a>
+            <a href="#last-section" style="--i:5">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Raju Kushwaha</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p> 
+                <br>expertise is to create and design website , frontend and Backend development
+            </p>
+            <div id="my-pic">
+                <img src="{% static 'profile.jpg' %}" alt="">
+
+            </div>
+
+            <div class="home-sci">
+                <a href="#" style="--i:6"><i class="ri-facebook-circle-fill"></i></a>
+                <a href="#" style="--i:7"><i class="ri-instagram-line"></i></a>
+                <a href="https://x.com/With_mighty0" style="--i:8"><i class="ri-twitter-fill"></i></a>
+                <a href="https://www.linkedin.com/in/raju-kushwaha-b2314124b/" style="--i:9"><i class="ri-linkedin-box-fill"></i></a>
+                <a href="https://github.com/Raju-kushwaha1230" style="--i:10"><i class="ri-github-fill"></i></a>
+            </div>
+            <a href="#about" class="btn-box">More About Me</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="{% static 'Futuristic Neon Blue And Pink Light Instagram Profile Picture.png ' %}" alt="">
+            <div class="my-pic">
+
+                <img src="{% static 'profile.jpg' %}" alt="">
+
+            </div>
+        </div>
+
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Full Stack Develiper!</h4>
+            <p>i am a skilled web developer with over 2 years of experience during diploma and i have done internship
+                from </p>
+
+            <a href="https://www.linkedin.com/in/raju-kushwaha-b2314124b/" class="btn-box">More About Me</a>
+        </div>
+
+    </section>
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-tittle">My <span>Services</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class="ri-code-line" style="color: #00eeff;"></i>
+                        <h2>Python Development</h2>
+                        <p>Python Development is the process where we are developing the web apps using different kind of python framework such as Django , Flask Api etc.. </p>
+                            <a href="https://devguide.python.org/" class="read">Lern more</a>
+                    </div>
+                    <div>
+                        <i class="ri-crop-line" style="color: #00eeff;"></i>
+                        <h2>Frontend Development</h2>
+                        <p>Frontend Developmet where developing Frontend Part of a website using different kind of technology such as HTML,CSS,Javascript ect..
+                            <a href="https://www.w3schools.com/whatis/whatis_frontenddev.asp" class="read">Lern more</a>
+                    </div>
+                    <div>
+                        <i class="ri-apple-fill" style="color: #00eeff;"></i>
+                        <h2>Backend Development</h2>
+                        <p>Backend Development where making website as working condition such as giving a soul to a human body and we are using different kind of tchnology here such as Node.js || Django || PHP  etc...But i prefer to work  on Django ..
+                            <a href="https://www.geeksforgeeks.org/backend-development/" class="read">Lern more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h1 class="sub-tittle">
+        <span>My</span> Skills
+    </h1>
+    <section class="skills" id="skills">
+        <div class="container1">
+            <h1 class="heading1">Technical Skills</h1>
+            <div class="technical-bars">
+                <div class="bars"><i class="ri-html5-fill" style="color: #c95d29;"></i>
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bars"><i class="ri-css3-fill" style="color: #147bbc;"></i>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bars"><i class="ri-javascript-fill" style="color: #b0bc1c;"></i>
+                    <div class="info">
+                        <span>Javascript</span>
+                    </div>
+                    <div class="progress-line javascript">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bars"><i class="ri-terminal-box-line" style="color: #c32ec9;"></i>
+                    <div class="info">
+                        <span>Python</span>
+                    </div>
+                    <div class="progress-line python">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bars"><i class="ri-reactjs-line" style="color: #69bcbc;"></i>
+                    <div class="info">
+                        <span>React.js</span>
+                    </div>
+                    <div class="progress-line react">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container1" id="radial-bar">
+            <h1 class="heading1">Professional Skills</h1>
+            <div id="radial-bars">
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text">Creativity</div>
+
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">70%</div>
+                    <div class="text">Communication</div>
+
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">80%</div>
+                    <div class="text">PRoblam Solving</div>
+
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">86%</div>
+                    <div class="text">TeamWork</div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="portfolio" class="project">
+            <div class="main-text" id="project">
+                <h2>Latest <span>Project</span></h2>
+                <div class="portfolio-content">
+                    <div class="row">
+                        <img src="{% static 'Screenshot 2024-05-14 172406.png' %}" alt="">
+                        <div class="layer">
+                            <h5>Frontend NextTech web Page</h5>
+                            <p>This is a beautifull Web Page of <b>NextTech</b>. You can see this project on my github </p>
+                            <a href="https://github.com/Raju-kushwaha1230/Next-Tech">Get project</a>
+
+                        
+                    </div>
+                    </div>
+                    <div class="row">
+                        <img src="{% static 'Screenshot 2024-05-19 115917.png' %}" alt="">
+                        <div class="layer">
+                            <h5>Frontend Project</h5>
+                            <p>Here I have build a clone Website of <b>TWO GOOD CO</b> . It's my simple project but i learnt many things from this.</p>
+                            <a href="https://github.com/Raju-kushwaha1230/two-good-co">Get project</a>
+
+                        </div>
+                    </div>
+                    <!-- <div class="row">
+                        <img src="image1.avif" alt="">
+                        <div class="layer">
+                            <h5>Frontend Project</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorem animi doloribus,
+                                totam repellat velit ut eius ratione quibusdam enim dolores maiores aspernatur?\</p>
+
+                        </div> -->
+                        <a href="#"><i class="bx bx-link-external" style="color: aliceblue;"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's work Together</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In aliquam assumenda maiores hic perferendis,
+                ipsa delenit
+                cupiditate rem reprehenderit. Quod dolores consequuntur repudiandae?</p>
+            <div class="contact-list">
+                <li><i class="ri-send-plane-2-line"></i>mightyrajukushwaha@gmail.com</li>
+                <li><i class="ri-phone-line"></i>123456789</li>
+
+            </div>
+            <div class="contact-icon">
+                <a href=""><i class="ri-instagram-fill"></i></a>
+                <a href="https://x.com/With_mighty0"><i class="ri-twitter-fill"></i></a>
+                <a href="https://www.linkedin.com/in/raju-kushwaha-b2314124b/"><i class="ri-linkedin-box-fill"></i></a>
+                <a href="https://github.com/Raju-kushwaha1230/"><i class="ri-github-fill"></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="" method="POST">
+                 {% csrf_token %}
+                <input type="name" placeholder="Name" name="Name" id="Name" required>
+                <input type="email" name="Email" id="emai;" placeholder="Enter your Email" required>
+                <input type="text" name="Subject" placeholder="Enter your Subject">
+                <textarea name="Massage" id="massage" cols="40" rows="10" placeholder="Enter your Massage"></textarea>
+                <input type="submit" name="send" id="submit" placeholder="submit">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="last-section">
+            <a href=""><i class="ri-arrow-up-circle-line"></i></a>
+            <h3>Copyright By@ Raju kushwaha 2024</h3>
+        </div>
+    </footer>
+
+    <script src="{% static 'script.js' %}"></script>
+</body>
+
+</html>
